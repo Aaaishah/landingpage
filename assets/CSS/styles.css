@@ -1,0 +1,132 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  body {
+    background: #eee9dc;
+    color: #231f20;
+    font-family: Helvetica;
+    margin: 0;
+  }
+  header {
+    width: 100%;
+    height: 50px;
+    background-color: #726567;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  #header-img {
+    width: max(100px, 18vw);
+    aspect-ratio: 35 / 4;
+    padding: 0.4rem;
+  }
+  nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+  }
+  
+  nav > ul > li {
+    color: #eee9dc;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+  }
+  
+  nav > ul > li:hover {
+    background-color: #8b677c;
+    color: #1b1b32;
+    cursor: pointer;
+  }
+  
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  main {
+    padding-top: 50px;
+  }
+  
+  section {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
+  }
+  video {
+    width: 30%;
+    margin: 0 auto 10px auto;
+  }
+  h2 {
+    font-family: Verdana, Tahoma;
+  }
+  .info {
+    padding: 10px 0 0 5px;}
+    .info label, .info input {
+    display: inline-block;
+  }
+  
+  .info input {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .info label {
+    width: 10%;
+    min-width: 55px;
+    text-align: right;
+  }
+ 
+
+#sample-video{
+    height: 640px;
+    width:360px;
+
+}
+
+  
+   .sewing{
+    width: 100%;
+  max-width: 302px;
+  height:403px;
+  border-radius: 10px;
+  
+   }
+  .samples {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 5px;
+  }
+  
+     
+  p {
+    margin-top: 5px;
+    padding-left: 15px;
+    font-size: 20px;}
+    button {
+    display: block;
+    margin: 40px auto;
+     width: 30%;
+    min-width: 55px;
+    text-align: center;
+    font-size: 17px;
+    background: #d0d0d5;
+    border: 3px solid #3b3b4f;
+    
+  }
